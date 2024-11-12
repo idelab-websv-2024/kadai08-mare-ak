@@ -20,7 +20,7 @@
 
     function startRequest() {
         var statusField = document.getElementById('status');
-        var s = '手嶌';
+        var s = 'serch';
         alert(s);
         var searchString = encodeURIComponent(s);
         alert(searchString);
@@ -38,6 +38,7 @@
 
 <div id='status'></div>
 <div id='outputArea'></div>
+<input type="text" id="search">
 <input type='button' id='searchWord' value='検索' onclick="startRequest()"/>
 
 
